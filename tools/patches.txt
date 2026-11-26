@@ -1,0 +1,2 @@
+# Instruction patches for NewColossus_x64vk.exe (unwrapped), applied by the translator (make gen).
+# Each line: guest address, then C that replaces that instruction (C.<reg> names, as the translator emits).

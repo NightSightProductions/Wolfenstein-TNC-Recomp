@@ -1,0 +1,7 @@
+# Guest functions in NewColossus_x64vk.exe (unwrapped) replaced by native code: "address name" per line.
+# Each name is a void N_x(CPU *c); see src/native_wolf2.c and framework/runtime/native.c.
+# Identified by matching code against DOOMx64vk.exe (DOOM-Recomp's tools/native.txt), same engine generation.
+141d4b940 N_memmove     # MSVC memcpy/memmove (one overlap-safe routine)
+141d4c940 N_memset
+141210500 N_idStr_Cmp   # idStr::Cmp(const char *, const char *)
+141210540 N_idStr_Icmp  # idStr::Icmp(const char *, const char *)
